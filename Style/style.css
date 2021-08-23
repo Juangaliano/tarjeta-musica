@@ -1,0 +1,112 @@
+:root {
+  --primario-Paleblue: hsl(225, 100%, 94%);
+  --primarioBrightblue: hsl(245, 75%, 52%);
+}
+
+body {
+  color: hsl(223, 47%, 23%);
+  background-color: var(--primario-Paleblue);
+  width: 100%;
+  height: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.menu {
+  background-color: #fff;
+  border: 2rem;
+  width: 450px;
+  height: auto;
+  margin: auto;
+  border: 2px;
+  border-radius: 10px;
+}
+
+.banner {
+  background-image: url(../images/illustration-hero.svg);
+  width: 450px;
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.contenido {
+  margin: 0px 40px;
+}
+
+.caja {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 2px;
+  border-radius: 10px;
+}
+
+.caja .subtitulo span {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+}
+
+.boton input {
+  background-color: hsl(245, 75%, 52%);
+  width: 100%;
+  border: 2px;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.boton input:hover {
+  background-color: hsl(228, 45%, 44%);
+}
+
+.cancelar {
+  text-align: center;
+  margin: 10px;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  font-weight: 700;
+}
+.cancelar:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
